@@ -1,0 +1,115 @@
+
+/*-- Media Queries tablette 991px--*/
+
+#searchfiltres{
+    position: relative;
+}
+#searchfiltres h2{
+    position:absolute;
+    margin-bottom: 70px;
+}
+.searchlogo{
+    margin-top: 50px;
+    font-size: 0.8em;
+    height: 46px;
+    margin-left: 8px;
+}
+#hebergementpopulaires {
+  flex-direction: column-reverse;
+}
+aside {
+  width: auto;
+  padding: 17px 5px;
+}
+#titreaside {
+  justify-content: center;
+}
+#titreaside h2 {
+  margin-right: 30px;
+}
+#bloccardaside {
+  display: flex;
+  justify-content: space-between;
+}
+#bloccardaside a{
+  width: 33%;
+}
+.asidecard{
+    height: 120px; 
+}
+.asidecard img{
+    width: 30%;
+}
+.asidecardtexte {
+    margin: 4px 10px;
+    font-size: 0.8em;}
+.asidestar {
+    bottom: 10px;
+}
+#conteneurhebergement {
+  width: auto;
+  margin-top: 50px;
+}
+#titrehebergement {
+  text-align: center;
+}
+#bloccardhebergement {
+  display: flex;
+  justify-content: space-between;
+}
+.conteneurcardhebergement {
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+.cardhebergement {
+  width: 90%;
+  margin-bottom: 16px;
+  text-align: center;
+}
+.mainstar{
+  margin-left: 34%;
+}
+#infocardhebergement{
+    margin-top: 10px;
+}
+.activitestitre {
+  text-align: center;
+}
+#activitesbloc{
+    flex-direction: column;
+}
+.activitescard{
+    width: auto;
+    margin-top: 20px;
+}
+.activitescard2{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+#cardpaul{
+    width: 47%;
+}
+#cardkevin{
+    width: 47%;
+    margin-top: 0px;
+}
+#imgkevin{
+    height: 180px;
+}
+#cardflorian{
+    width: 47%;
+}
+#imgflorian{
+    height: 180px;
+}
+#cardlena{
+    width: 47%;
+    height: fit-content;
+}
+footer{
+    margin-top: 10px; 
+}
+/*-- Media Queries tablette --*/

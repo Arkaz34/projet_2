@@ -1,0 +1,200 @@
+
+/*--Media Queries telepone 767px--*/
+
+header {
+  flex-direction: column;
+  margin: 0px;
+  text-align: center;
+}
+header img{
+  margin-left: 25px;
+}
+nav {
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav1 {
+  width: 50%;
+  padding: 12px 0px;
+  margin-right: 0px;
+  border-bottom: 2px solid #f2f2f2;
+}
+.nav2 {
+  width: 50%;
+  padding: 12px 0px;
+  border-bottom: 2px solid #f2f2f2;
+  
+}
+nav :hover{
+  border-top: none;
+  border-bottom: 2px solid #0065fc;
+  color: #0065fc;
+}
+#search{
+  margin-left: 27px;
+  margin-right: 27px;
+}
+#search h1{
+  font-size: 1.5em;
+}
+#search p{
+  font-size: 1.0em;
+}
+form label {
+  display: none;
+}
+form .loupe {
+  display: inline-block;
+  margin-left: -20px;
+  background-color: #0065fc;
+  color: white;
+}
+#searchfiltres {
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  height: 236px;
+}
+.searchlogo {
+  margin-bottom: -34px;
+  margin-left: 0px;
+}
+#logof {
+  position: absolute;
+  margin-left: 190px;
+}
+#infologement {
+  padding: 30px 0px;
+  align-items: baseline;
+}
+#infologement i{
+  font-size: 0.7em;
+  padding: 2px 6px;
+  margin-right: 12px;
+}
+#infologement p{
+  font-size: 0.8em;
+}
+main{
+  margin: 0px;
+}
+aside {
+  padding: 36px 20px;
+}
+#titreaside {
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+#bloccardaside {
+  flex-direction: column;
+}
+#bloccardaside a{
+  width: auto;
+}
+.asidecard img{
+  width: 40%;
+}
+.asidecard {
+  margin-top: 10px;
+}
+#conteneurhebergement{
+  background-color: white;
+  padding: 0px;
+}
+#titrehebergement {
+  text-align: initial;
+  margin-left: 10px;
+  margin: 16px 20px;
+}
+#bloccardhebergement {
+  flex-direction: column;
+  align-items: center;
+}
+.conteneurcardhebergement{
+  margin-top: 0px;
+}
+.cardhebergement {
+  height: 211px;
+  box-shadow: 3px 3px 15px -11px black;
+  width: 92%;
+}
+.cardhebergement img{
+  height: 120px;
+}
+.cardtexte {
+  text-align: initial;
+}
+.mainstar{
+  margin-left: 0px;
+  bottom: 4px;
+}
+#infocardhebergement {
+  margin-left: 18px;
+}
+#activitestitre {
+  text-align: initial;
+  margin-bottom: 0px;
+  margin-left: 18px;
+}
+#activitesbloc {
+  flex-direction: column;
+  padding: 3%;
+}
+.activitescard{
+  height: 225px;
+}
+.activitescard h3{
+  padding: 10px;
+}
+.activitescardimg img{
+  height: 175px;
+}
+.activitescard2 {
+  flex-direction: column;
+}
+#cardpaul {
+  height: 225px;
+  width: auto;
+}
+#cardpaul h3{
+  padding: 10px;
+}
+#cardkevin {
+  height: 225px;
+  width: auto;
+  margin-top: 20px;
+}
+#cardkevin h3{
+  padding: 10px;
+}
+#cardflorian {
+  height: 225px;
+  width: auto;
+}
+#cardflorian h3{
+  padding: 10px;
+}
+#cardlena {
+  height: 225px;
+  width: auto;
+  margin-top: -15px;
+}
+#cardlena h3{
+  padding: 10px
+}
+footer {
+  background-color: #f2f2f2;
+  color: black;
+  flex-direction: column;
+  height: 400px;
+  padding-left: 17px;
+}
+.blockliste {
+  width: 70%;
+}
+.styleliste {
+  margin-top: 15px;
+}
+
+/*--Media Queries telepone --*/
